@@ -2,6 +2,10 @@ html{
     display: flex;
 }
 
+#header{
+    display: flex;
+}
+
 
 li{
     list-style: none;
