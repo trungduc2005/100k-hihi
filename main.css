@@ -2,13 +2,14 @@ html{
     display: flex;
 }
 
+/* cho tao xin 100k */
 
 #header {
     display: flex;
     width: 100%;
     height: 80px;
     align-items: center;
-    background-color: #f8f9fa; 
+    background-color: #2da06e; 
     padding: 20px 0;
 }
 
