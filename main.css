@@ -8,15 +8,39 @@ html{
 
 }
 h1{
-    font-size: 25px;
+    font-size: 40px;
 }
+.breadcrumb {
+    font-size: 16px; 
+    color: #333;
+    font-family: sans-serif; 
+  }
+  
+  .breadcrumb a {
+    color: #007bff; 
+    text-decoration: none; 
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline; 
+  }
+  
+  .breadcrumb span {
+    margin: 0 5px; 
+  }
+  
+  .breadcrumb span:not(:last-child):after {
+    content: ">"; 
+    margin-left: 5px; 
+  }
 #header {
     display: flex;
     width: 100%;
     height: 80px;
     align-items: center;
-    background-color: #88929c; 
+    background-color: #bb1a1a; 
     padding: 20px 0;
+    position:fixed;
 }
 
 #menu{
@@ -72,6 +96,9 @@ h3{
     text-align: justify;
     font-size: 20px;
 
+}
+#content img{
+    margin-bottom: 20px;
 }
 
 li{
@@ -137,19 +164,15 @@ li{
 
 #p2{
     display: flex;
-	backgroud-color: #fcfbf6;
+	background-color: #fcfbf6;
 }
-dcb{
-	margin-left:250x;
+#dcb{
+	margin-left:250px;
 }
 #p3{
     float: right;
     margin-right:100px;
     margin-left: 200px;
-}
-#p{
-    text-align: justify;
-    font-size: 14px;
 }
 
 #p2 ul.style3{
@@ -169,6 +192,7 @@ dcb{
     text-align: justify;
     font-size: 14px;
 }
+
 
 #box1 ul li p{
     width: 230px;
