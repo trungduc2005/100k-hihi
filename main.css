@@ -42,7 +42,11 @@ h1{
     width: 100%;
     height: 80px;
     align-items: center;
+<<<<<<< HEAD
     background-color: #c91c1c; 
+=======
+    background-color: #88929c; 
+>>>>>>> 417bc121464ac13af0f1f824e34c74843f36e5e9
     padding: 20px 0;
     position: fixed;
 }
@@ -81,7 +85,11 @@ h1{
     color: white !important;
 }
 #page{
+<<<<<<< HEAD
     padding-top: 20px;
+=======
+    padding-top: 90px;
+>>>>>>> 417bc121464ac13af0f1f824e34c74843f36e5e9
     display: flex;
     background-color: #fcfbf6;
 }
