@@ -57,6 +57,7 @@ h1{
     padding-top: 90px;
     display: flex;
     background-color: #fcfbf6;
+    overflow: visible;
 }
 h3{
     font-size: 25px;
@@ -79,11 +80,19 @@ li{
 
 
 #sidebar{
+    height: 2000;
     float: right;
-    width: 300px;
+    width: 350px;
     margin-right:150px;
     margin-left: 80px;
+    z-index: 10;
     /* padding-right: 10px; */
+}
+
+#box1{
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 70px;
 }
 
 #sidebar ul.style1{
@@ -91,7 +100,7 @@ li{
 }
 
 #sidebar ul.style1 li {
-    width: 300px;
+    width: 350px;
     margin-top: 2px;
     border-bottom:1px solid rgb(214, 209, 160) ;
     display: flex;
@@ -162,7 +171,7 @@ dcb{
 }
 
 #box1 ul li p{
-    width: 200px;
+    width: 230px;
 }
 
 
