@@ -96,6 +96,9 @@ h3{
     font-size: 20px;
 
 }
+#content img{
+    margin-bottom: 20px;
+}
 
 li{
     list-style: none;
