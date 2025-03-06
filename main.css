@@ -121,7 +121,7 @@ li{
     position: fixed;
     top: 100px;
     left: 1050px;
-    width: 250px; 
+    width: 300px; 
     background-color:   #fcfbf6;
     z-index: 100;
 }
@@ -133,7 +133,7 @@ li{
 }
 
 #sidebar ul.style1 li {
-    width: 350px;
+    width: 300px;
     margin-top: 2px;
     border-bottom:1px solid rgb(214, 209, 160) ;
     display: flex;
