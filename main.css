@@ -83,19 +83,24 @@ h1{
     background-color: #fcfbf6;
     overflow: visible;
 }
+h2{
+    text-align: justify;
+    font-size:35px;
+}
 h3{
-    font-size: 25px;
+    font-size: 30px;
+    text-align: justify;
 }
 #content {
     float: left;
     padding-left: 0px;
     margin-left: 250px;
-    width:700px;
+    width:800px;
 }
 #content p{
     text-align: justify;
     font-size: 20px;
-
+    padding-left:0px;
 }
 #content img{
     margin-bottom: 20px;
@@ -113,14 +118,15 @@ li{
     margin-right:150px;
     margin-left: 80px;
     z-index: 10;
-    /* padding-right: 10px; */
+    position: fixed;
+    top: 100px;
+    left: 1100px;
+    width: 300px; 
+    background-color:   #fcfbf6;
+    z-index: 100;
 }
 
-#box1{
-    position: sticky !important;
-    position: -webkit-sticky !important;
-    top: 90px;
-}
+
 
 #sidebar ul.style1{
     padding-left: 0px;
@@ -138,7 +144,7 @@ li{
 
 #sidebar p{
     text-align: justify;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 
@@ -166,32 +172,31 @@ li{
     display: flex;
 	background-color: #fcfbf6;
 }
-#dcb{
-	margin-left:250px;
+ #dcb .style3 {
+    margin-left:250px;
+    padding-left:0px;
+  
 }
-#p3{
-    float: right;
-    margin-right:100px;
-    margin-left: 200px;
+#p2 ul li{
+    border-bottom:1px  solid rgb(214, 209, 160) ;
 }
-
-#p2 ul.style3{
-    padding-left: 0px;
-}
-
-#p2 ul.style3 li {
-    margin-top: 20px;
-    border-bottom:1px solid rgb(214, 209, 160) ;
-    display: flex;
-    align-items: center; 
-    gap: 10px; 
-    width: 600px;
-}
-
 #p2 p{
     text-align: justify;
-    font-size: 14px;
+    width: 350px;
+    font-size: 15px;
 }
+#p3 {
+    margin-left: 100px;
+}
+#p3 .style3{
+    padding-left:0px;
+  
+
+}
+#p2 img{
+    margin-bottom: 20px;
+}
+
 
 #footer {
     display: flex;
