@@ -8,7 +8,7 @@ html{
 
 }
 h1{
-    font-size: 40px;
+    font-size: 35px;
 }
 .breadcrumb {
     font-size: 16px; 
@@ -62,7 +62,7 @@ h1{
 }
 
 #menu ul li a {
-    font-size: 13px;
+    font-size: 12px;
     text-decoration: none; 
     color: black; 
     font-weight: bold;
@@ -99,7 +99,7 @@ h3{
 }
 #content p{
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     padding-left:0px;
 }
 #content img{
@@ -116,7 +116,7 @@ li{
     float: right;
     width: 300px;
     margin-right:150px;
-    margin-left: 80px;
+    margin-left: 70px;
     z-index: 10;
     position: fixed;
     top: 100px;
