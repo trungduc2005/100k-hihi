@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 html{
     display: flex;
     height: 100%;
@@ -6,8 +10,8 @@ html{
     overflow-x: hidden;
 }
 * {
-    box-sizing: border-box;
-  }
+    box-sizing: inherit;
+}
 
 #logo{
     color:aliceblue;
@@ -45,10 +49,13 @@ h1{
     width: 100%;
     height: 70px;
     align-items: center;
-    background-color: #bb1a1a; 
+    background-color: #bb1a1a;
     padding: 20px 0;
-    position:fixed;
-    overflow:hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
 
 #menu{
