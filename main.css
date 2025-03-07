@@ -1,6 +1,13 @@
 html{
     display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
+* {
+    box-sizing: border-box;
+  }
 
 #logo{
     color:aliceblue;
@@ -41,6 +48,7 @@ h1{
     background-color: #bb1a1a; 
     padding: 20px 0;
     position:fixed;
+    overflow:hidden;
 }
 
 #menu{
@@ -81,7 +89,7 @@ h1{
     padding-top: 90px;
     display: flex;
     background-color: #fcfbf6;
-    overflow: visible;
+    overflow: hidden;
 }
 h2{
     text-align: justify;
@@ -170,7 +178,8 @@ li{
 
 #p2{
     display: flex;
-	background-color: #fcfbf6;
+    background-color: #fcfbf6;
+    overflow: hidden;
 }
  #dcb .style3 {
     margin-left:250px;
